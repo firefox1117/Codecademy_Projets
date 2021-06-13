@@ -27,11 +27,11 @@ for (let select in greetings) {
     }
 }
 
-function formatWisdom(wisdom) {
+function Welcome(wisdom) {
     // Add some ASCII here?
     // Add in more symbols to the array? like emojies or what not?
-    const formatted = personalWisdom.join('\n')
+    const formatted = store.join('\n')
     console.log(formatted)
   }
   
-  formatWisdom(personalWisdom);
+  Welcome(store);
